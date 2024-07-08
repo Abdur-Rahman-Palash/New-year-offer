@@ -14,7 +14,6 @@ body{
 .banner-container{
 max-width: 1320px;
 margin: 0 auto;
-border: 2px solid red;
 min-height: 600px;
 margin-top: 20px;
 background: rgba(0, 0, 0, 0.5);
@@ -47,7 +46,6 @@ font-weight: 400;
 .section-container{
   max-width: 802.9px;
 height: 806px;
-border: 2px solid red;
 margin: 0 auto;
 margin-top: 20px;
 display: flex;
@@ -95,7 +93,6 @@ height: 500px;
 .midnight-container{
   width: 1320px;
 height: 600px;
-border: 2px solid black;
 margin: 0 auto;
 margin-top: 20px;
 display: flex;
@@ -106,7 +103,6 @@ background-blend-mode: overlay;
 .lftside{
 width: 50%;
 height: 600px;
-border: 2px solid darkblue;
 display: flex;
   flex-direction: column;
   align-items: center;
@@ -146,14 +142,12 @@ margin-right: 400px;
 .rightside {
   width: 50%;
 height: 600px;
-border: 2px solid greenyellow;
 display: flex;
 align-items: center;
 justify-content: center;
 }
 
 .place-container{
-  border: 2px solid red;
   width: 1320px;
 height: 482px;
 margin: 0 auto;
@@ -192,7 +186,6 @@ background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 1
   .coming-soon{
     width: 1320px;
 height: 463px;
-border: 2px solid red;
 margin: 0 auto;
 margin-top: 20px;
 display: flex;
@@ -241,7 +234,6 @@ text-align: left;}
 height: 986.07px;
 margin: 0 auto;
 margin-top: 25px;
-border: 2px solid yellow;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -299,7 +291,6 @@ margin-top: 97px;
 .grid{
   width: 1320px;
 height: 1163px;
-border: 2px solid black;
 margin: 0 auto;
  margin-top: 25px;
 }
@@ -338,11 +329,15 @@ margin-left: 5px;
 .news-letter{
   width: 1320px;
 height: 616px;
-border: 2px solid green;
 margin: 0 auto;
 margin-top: 25px;
 border-radius: 16px;
 background: rgba(255, 0, 0, 0.05);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-bottom: 30px;
 }
 .btn-primary{
   background-color: #FD6E0A;
@@ -357,25 +352,16 @@ background: rgba(255, 0, 0, 0.05);
 font-family: Merriweather;
 font-size: 48px;
 font-weight: 900;
+
 }
 .textss p{
   color: rgba(7, 2, 17, 0.6);
 font-family: Inter;
 font-size: 20px;
 font-weight: 400;
+text-align: center;
 }
-.textss input[type="email"]{
-  border-radius: 50px;
-background: rgb(255, 255, 255);
-}
-.footer{
-  background: rgb(7, 2, 17);
-  width: 1600px;
-height: 609px;
-border: 2px solid white;
-margin: 0 auto;
-margin-top: 30px;
-}
+
 
 .contact{
   display: flex;
@@ -383,4 +369,53 @@ margin-top: 30px;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+.blank{
+  border-radius: 50px;
+background: rgb(255, 255, 255);
+margin-top: 30px;
+width: 648px;
+height: 72px;
+}
+.footer-sec{
+width: 90%;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+margin-top: 60px;
+
+}
+.footer{
+  background: rgb(7, 2, 17);
+  width: 1320px;
+height: 609px;
+margin: 0 auto;
+}
+.contact{
+  display: flex;
+ 
+}
+.img-icons{
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 120px;
+display: flex;
+justify-content: space-evenly;
+}
+.hr{
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  margin-top: 35px;
+}
+.end-text{
+  width: 90%;
+  margin: 0 auto;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
 }
